@@ -3,6 +3,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;   
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    z-index: 100;
+    border-bottom-color: rgb(228, 228, 228);
 }
 
 .left-section{
@@ -103,5 +112,23 @@
 
 .current-user-picture{
     height: 32px;
+    border-radius: 50%;
+}
+
+.notification-icon-container{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    color: white;
+    background-color: rgb(200, 0, 0);
+    font-family: Roboto, Arial;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 11px;
     border-radius: 50%;
 }
