@@ -1,22 +1,22 @@
 .sidebar{
-    position: fixed;
     left: 0;
     bottom: 0;
     top: 55px;
     width: 72px;
-    background-color: white;
     z-index: 200;
+    position: fixed;
     padding-top: 5px;
+    background-color: white;
 }
 
 .sidebar-link{
     height: 74px;
-    margin-bottom: 1px;
     display: flex;
-    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 1px;
     align-items: center;
     flex-direction: column;
-    cursor: pointer;
+    justify-content: center;
 }
 
 .sidebar-link:hover{
@@ -29,6 +29,5 @@
 }
 
 .sidebar-link div{
-    font-family: Roboto, Arial;
     font-size: 10px;
 }
