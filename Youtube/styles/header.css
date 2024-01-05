@@ -153,6 +153,7 @@
     padding: 6px 8px;
     border-radius: 2px;
     position: absolute;
+    /*To eliminate the text wraping */
     white-space: nowrap;
     pointer-events: none;   
     transition: opacity 0.5s;
