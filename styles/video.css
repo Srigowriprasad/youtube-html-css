@@ -1,5 +1,6 @@
 .thumbnail {
   width: 100%;
+  border-radius: 12px;
 }
 
 .message {
@@ -46,6 +47,10 @@
 .thumbnail-row,
 .profile-picture {
   cursor: pointer;
+}
+
+.thumbnail:hover{
+border-radius: 3px;
 }
 
 .video-info-grid {
